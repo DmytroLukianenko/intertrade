@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/intertrade/static/css/main.e6c13ad2.css",
-    "main.js": "/intertrade/static/js/main.400ae8d4.js",
-    "static/js/613.965de1f2.chunk.js": "/intertrade/static/js/613.965de1f2.chunk.js",
+    "main.js": "/intertrade/static/js/main.44a5b4f8.js",
+    "static/js/613.9bd017f2.chunk.js": "/intertrade/static/js/613.9bd017f2.chunk.js",
     "static/js/509.020ef162.chunk.js": "/intertrade/static/js/509.020ef162.chunk.js",
     "static/media/hero.jpg": "/intertrade/static/media/hero.49f175286f9cad99e2f9.jpg",
     "static/media/greenBulb.jpg": "/intertrade/static/media/greenBulb.11fa15549001d86aa06a.jpg",
@@ -10,12 +10,12 @@
     "static/media/AdobeStock_422996397.jpeg": "/intertrade/static/media/AdobeStock_422996397.537c23c6af7f207c67ca.jpeg",
     "index.html": "/intertrade/index.html",
     "main.e6c13ad2.css.map": "/intertrade/static/css/main.e6c13ad2.css.map",
-    "main.400ae8d4.js.map": "/intertrade/static/js/main.400ae8d4.js.map",
-    "613.965de1f2.chunk.js.map": "/intertrade/static/js/613.965de1f2.chunk.js.map",
+    "main.44a5b4f8.js.map": "/intertrade/static/js/main.44a5b4f8.js.map",
+    "613.9bd017f2.chunk.js.map": "/intertrade/static/js/613.9bd017f2.chunk.js.map",
     "509.020ef162.chunk.js.map": "/intertrade/static/js/509.020ef162.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.400ae8d4.js"
+    "static/js/main.44a5b4f8.js"
   ]
 }
