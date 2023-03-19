@@ -1,8 +1,17 @@
+import AboutUsSection from '../components/homepage/AboutUsSection'
+import Benefits from '../components/homepage/Benefits'
+import HPHero from '../components/homepage/HPHero'
+import OurOffer from '../components/homepage/Offer'
+import OurAnswer from '../components/homepage/OurDecision'
+
 export default function HomePage() {
-    return (
-        <div style={{ padding: 20 }}>
-            <h2>Home Vieww</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adip.</p>
-        </div>
-    );
+  return (
+    <>
+      <HPHero />
+      <Benefits />
+      <AboutUsSection />
+      <OurAnswer />
+      <OurOffer />
+    </>
+  )
 }
