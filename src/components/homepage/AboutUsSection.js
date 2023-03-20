@@ -10,9 +10,13 @@ export default function AboutUsSection() {
       </Grid>
       <Grid item md={6} xs={12}>
         {/* <Box display="flex"> */}
-        <Typography variant="h3" color="text.greenDark" fontWeight={600}>
+        <Typography variant="h5" color="text.greenDark" fontWeight={600}>
           {' '}
           О нас
+        </Typography>
+        <Typography variant="h4" fontWeight={600}>
+          {' '}
+          We Are The Top Renewable Energy Solutions
         </Typography>
         <Typography variant="body1" sx={{ lineHeight: '2', mt: 2, fontWeight: 400 }}>
           {' '}

@@ -18,7 +18,9 @@ export default function HPHero() {
           maxWidth: { md: '50%', xs: '90%' },
           height: 'fit-content',
           backgroundImage: 'linear-gradient(135deg, rgba(245, 247, 250, 0.7) 50%, rgba(195, 207, 226, 0.7) 65%);',
-          transform: ' translate(20%, 40%)',
+          position: 'absolute',
+          top: '25%',
+          left: '15%',
           borderRadius: 1,
         }}
       >

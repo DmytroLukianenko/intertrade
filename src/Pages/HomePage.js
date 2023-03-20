@@ -1,3 +1,4 @@
+import { Container } from '@mui/material'
 import AboutUsSection from '../components/homepage/AboutUsSection'
 import Benefits from '../components/homepage/Benefits'
 import HPHero from '../components/homepage/HPHero'
@@ -9,9 +10,13 @@ export default function HomePage() {
     <>
       <HPHero />
       <Benefits />
-      <AboutUsSection />
+      <Container>
+        <AboutUsSection />
+      </Container>
       <OurAnswer />
-      <OurOffer />
+      <Container>
+        <OurOffer />
+      </Container>
     </>
   )
 }

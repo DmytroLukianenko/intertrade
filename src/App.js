@@ -8,11 +8,12 @@ const HomePage = lazy(() => import('./Pages/HomePage'))
 function App() {
   return (
     <ThemeProvider>
-      <Router>
+      {/* <Router> */}
+      <Router basename="intertrade">
         <Layout>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-        </Routes>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+          </Routes>
         </Layout>
       </Router>
     </ThemeProvider>
