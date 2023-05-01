@@ -10,9 +10,9 @@ export default function HomePage() {
     <>
       <HPHero />
       <Benefits />
-      <Container>
-        <AboutUsSection />
-      </Container>
+      {/* <Container> */}
+      <AboutUsSection />
+      {/* </Container> */}
       <OurAnswer />
       <Container>
         <OurOffer />
