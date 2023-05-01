@@ -3,14 +3,30 @@ import answerImg from '../../assets/Images/offer/AdobeStock_422996397.jpeg'
 
 export default function OurAnswer() {
   return (
-    <Box sx={{ mt: 10, mb: 10, position: 'relative', display: 'flex', justifyContent: 'center' }}>
-      <Box component="img" src={answerImg} sx={{ width: '100%' }} />
+    <Box
+      container
+      sx={{
+        mt: 10,
+        mb: 10,
+        p: 2,
+        alignItems: { md: 'flex-start', xs: 'center' },
+        position: 'relative',
+        display: 'flex',
+        justifyContent: 'center',
+        backgroundImage: `url(${answerImg})`,
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+        // height: '100vh',
+        height: '400px',
+      }}
+    >
       <Container
         sx={{
-          height: '100px',
+          height: 'fit-content',
           p: 3,
           borderRadius: 1,
-          position: 'absolute',
+          // zIndex: 1,
+          // position: 'absolute',
           display: 'flex',
           justifyContent: 'center',
           top: '17%',
