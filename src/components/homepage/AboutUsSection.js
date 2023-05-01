@@ -1,21 +1,21 @@
-import { Box, Button, Container, Grid, Stack, Typography } from '@mui/material'
+import { Box, Button, Grid, Stack, Typography } from '@mui/material'
 import aboutImg from '../../assets/Images/AboutUs/greenBulb.jpg'
 
 export default function AboutUsSection() {
   return (
     // <Container>
-    <Grid container>
+    <Grid container position="relative">
       <Grid item md={6} xs={12} sx={{ maxHeight: '100vh' }}>
         <Box component="img" src={aboutImg} sx={{ transform: 'scaleX(-1)', height: '100%', width: ' 100%' }} />
       </Grid>
-      <Grid item md={6} xs={12}>
+      <Grid item md={6} xs={12} sx={{ mt: { md: 0, xs: '-50%', zIndex: 1 } }}>
         {/* <Box display="flex"> */}
-        <Stack spacing={2} sx={{ p: '10% 10% 10% 0' }}>
-          <Typography variant="h5" color="text.greenDark" fontWeight={600}>
+        <Stack spacing={2} sx={{ p: { md: '10% 10% 10% 0', xs: '0 10px' } }}>
+          <Typography variant="h5" color="text.greenDark" fontWeight={600} sx={{ textAlign: { xs: 'center', md: 'inherit' } }}>
             {' '}
             О нас
           </Typography>
-          <Typography variant="h4" fontWeight={600}>
+          <Typography variant="h4" fontWeight={600} sx={{ textAlign: { xs: 'center', md: 'inherit' } }}>
             {' '}
             We Are The Top Renewable Energy Solutions
           </Typography>
