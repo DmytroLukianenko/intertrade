@@ -12,7 +12,7 @@ export default function Benefits(params) {
   const theme = useTheme()
   return (
     <Container sx={{ p: 4 }}>
-      <Grid container spacing={3}>
+      <Grid container spacing={3} sx={{ mt: 0 }}>
         {blocks.map((item, i) => (
           <Grid key={i} item xs={12} md={6} lg={3}>
             <Paper
@@ -61,9 +61,9 @@ export default function Benefits(params) {
             </Paper>
           </Grid>
         ))}
+        {/* <Grid item xs={12} md={6} lg={3}></Grid>
         <Grid item xs={12} md={6} lg={3}></Grid>
-        <Grid item xs={12} md={6} lg={3}></Grid>
-        <Grid item xs={12} md={6} lg={3}></Grid>
+        <Grid item xs={12} md={6} lg={3}></Grid> */}
       </Grid>
     </Container>
   )
