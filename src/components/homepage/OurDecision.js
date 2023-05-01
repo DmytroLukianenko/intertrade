@@ -6,8 +6,8 @@ export default function OurAnswer() {
     <Box
       container
       sx={{
-        mt: 10,
-        mb: 10,
+        // mt: 10,
+        // mb: 10,
         p: 2,
         alignItems: { md: 'flex-start', xs: 'center' },
         position: 'relative',
@@ -30,7 +30,7 @@ export default function OurAnswer() {
           display: 'flex',
           justifyContent: 'center',
           top: '17%',
-          backgroundImage: 'linear-gradient(135deg, rgba(245, 247, 250, 0.7) 50%, rgba(195, 207, 226, 0.7) 65%)',
+          backgroundImage: 'linear-gradient(135deg, rgb(245 247 250 / 90%) 50%, rgb(225 233 246 / 88%) 65%)',
         }}
       >
         <Typography variant="body1" fontWeight={500}>
