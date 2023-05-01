@@ -9,7 +9,7 @@ export default function HPHero() {
     section.scrollIntoView({ behavior: 'smooth' })
   }
   return (
-    <Grid container sx={{ height: '90vh' }}>
+    <Grid container sx={{ height: '80vh', display: 'flex', justifyContent: { xs: 'center', md: 'flex-start' }, alignItems: 'center' }}>
       <Box component="img" src={heroImage} sx={{ height: '90%', width: '100%', position: 'absolute', zIndex: '-1' }} />
       <Stack
         spacing={2}
@@ -19,8 +19,8 @@ export default function HPHero() {
           height: 'fit-content',
           backgroundImage: 'linear-gradient(135deg, rgba(245, 247, 250, 0.7) 50%, rgba(195, 207, 226, 0.7) 65%);',
           position: 'absolute',
-          top: '25%',
-          left: '15%',
+          top: { md: '25%', xs: 'auto' },
+          left: { md: '15%', xs: 'auto' },
           borderRadius: 1,
         }}
       >
